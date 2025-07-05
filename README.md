@@ -5,19 +5,25 @@ Fungsi dari landing page ini adalah untuk memperkuat citra profesional MBC Lab d
  ## Struktur Proyek
  Berikut ini adalah struktur direktori dari proyek website :
 /mbclab-website/
-├── index.html # Halaman utama website (Landing Page)
-├── style.css # File CSS untuk tampilan
-├── script.js # JavaScript interaktif (untuk toggle divisi, dll)
-├── logo-mbc.jpeg # Logo utama laboratorium
-├── cybersecurity.png # Gambar divisi Cybersecurity
-├── bigdata.png # Gambar divisi Big Data
-├── gametech.png # Gambar divisi Game Technology
-├── gis.png # Gambar divisi GIS
-├── kirim.php # File PHP backend untuk proses form kontak
-└── README.md # Dokumentasi proyek ini
+MBC-Lab-Website/
+├── index.html               # Halaman utama website
+├── style.css                # File styling utama
+├── script.js                # Interaksi JavaScript
+├── /images/                 # Folder aset gambar
+│   ├── logo-mbc.jpeg
+│   ├── cybersecurity.png
+│   ├── bigdata.png
+│   ├── gis.png
+│   └── gametech.png
+├── /screenshots/            # Screenshot halaman (untuk dokumentasi)
+├── README.md                # Dokumentasi utama proyek
+
 
 ## Instalasi Lokal
-   ```bash
-   git clone https://github.com/Mr-Sakhi/Landing-Page-MBC.git
+1. Clone repositori: git clone https://github.com/username/mbc-lab-website.git
+2. Buka file index.html di browser.
+3. Pastikan koneksi internet aktif (untuk load font & CDN).
 
-   cd Landing-Page-MBC
+## Instruksi Deployment
+
+
